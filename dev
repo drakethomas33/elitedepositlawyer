@@ -1,0 +1,8 @@
+#! bin/bash
+export DATABASE_URL='postgres://localhost:5432/printstudio'
+PATH="/Applications/Postgres.app/Contents/MacOS/bin:$PATH"
+
+export DJANGO_SETTINGS_MODULE=project.settings
+
+export HOSTNAME=http://localhost:8000
+export HOST=localhost:8000
